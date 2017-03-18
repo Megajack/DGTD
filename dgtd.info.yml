@@ -11,8 +11,8 @@ libraries:
   - dgtd/global-js
 
 regions:
-  content: 'content'
-  header: 'header'
-  footer: 'footer'
+  header: 'Header'
   sidebar_left: 'Sidebar Left'
+  content: 'Content'
   sidebar_right: 'Sidebar Right'
+  footer: 'Footer'

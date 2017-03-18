@@ -1,19 +1,27 @@
-<header>
+<header class="header">
   {{ page.header }}
 </header>
 
-<main>
-  <aside>
-    {{ page.sidebar_left }}
-  </aside>
-  <div class="content">{{ page.content }}</div>
-  <aside>
-    {{ page.sidebar_left }}
-  </aside>
+<main class="content-wrapper">
+  {% if page.sidebar_right %}
+    <aside class="sidebar-left">
+      {{ page.sidebar_left }}
+    </aside>
+  {% endif %}
+
+  <div class="content">
+    {{ page.content }}
+  </div>
+
+  {% if page.sidebar_left %}
+    <aside class="sidebar-right">
+      {{ page.sidebar_left }}
+    </aside>
+  {% endif %}
 </main>
 
 {% if page.footer %}
-  <footer>
+  <footer class="footer">
     {{ page.footer }}
   </footer>
 {% endif %}

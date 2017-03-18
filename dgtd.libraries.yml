@@ -2,6 +2,8 @@ global-css:
   css:
     theme:
       css/base/elements.css: {}
+      css/components/header.css: {}
+      css/components/footer.css: {}
 
 global-js:
   js:
