@@ -4,6 +4,7 @@ global-css:
       css/base/elements.css: {}
       css/components/header.css: {}
       css/components/footer.css: {}
+      css/layout/layout.css: {}
 
 global-js:
   js:

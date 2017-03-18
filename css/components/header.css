@@ -1,0 +1,23 @@
+.header {
+  background: url('../../images/1.jpg') no-repeat top center;
+  height: 300px;
+}
+.header .wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  width: 70px;
+}
+
+.site-branding__text {
+  overflow: hidden;
+}
+
+.site-branding__text a {
+  color: #fff;
+  text-decoration: none;
+}

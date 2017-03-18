@@ -12,6 +12,8 @@ body {
   word-wrap: break-word;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 87.5%;
+  margin: 0;
+  padding: 0;
 }
 a,
 a.link {
