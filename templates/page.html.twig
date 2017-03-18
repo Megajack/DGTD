@@ -6,21 +6,21 @@
 
 <main class="main-content">
   <div class="wrapper">
+    {% if page.sidebar_left %}
+      <aside class="sidebar-right">
+        {{ page.sidebar_left }}
+      </aside>
+    {% endif %}
+
     {% if page.sidebar_right %}
       <aside class="sidebar-left">
-        {{ page.sidebar_left }}
+        {{ page.sidebar_right }}
       </aside>
     {% endif %}
 
     <div class="content">
       {{ page.content }}
     </div>
-
-    {% if page.sidebar_left %}
-      <aside class="sidebar-right">
-        {{ page.sidebar_left }}
-      </aside>
-    {% endif %}
   </div>
 </main>
 

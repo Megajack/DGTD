@@ -2,3 +2,20 @@
   max-width: 940px;
   margin: 0 auto;
 }
+
+.sidebar-left,
+.sidebar-right {
+  width: 200px;
+}
+
+.sidebar-left {
+  float: left;
+}
+
+.sidebar-right {
+  float: right;
+}
+
+.content {
+  overflow: hidden;
+}
