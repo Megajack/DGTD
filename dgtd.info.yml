@@ -1,10 +1,10 @@
 core: 8.x
 type: theme
-name: Drupal Global Training Day Theme
+name: Drupal Global Training Day
 description: Base theme from scratch
 
 stylesheets-remove:
-  - core/themes/stable/css/views/views.module.css
+  - core/themes/stable/css/system/components/align.module.css
 
 libraries:
   - dgtd/global-css
@@ -12,7 +12,7 @@ libraries:
 
 regions:
   header: 'Header'
-  sidebar_left: 'Sidebar Left'
   content: 'Content'
+  sidebar_left: 'Sidebar Left'
   sidebar_right: 'Sidebar Right'
   footer: 'Footer'
